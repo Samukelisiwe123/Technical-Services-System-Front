@@ -1,0 +1,569 @@
+.sticky {
+    background-color: black;
+    height:115px;
+    
+}
+.toggleMenu {
+    cursor: pointer;
+    display:none;
+}
+.center 
+{
+    margin-right: 35%;
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+
+#left {
+
+    padding-left:75%;
+}
+
+.logo {
+    height: 100px;
+
+    margin-top: 10px;
+}
+img {
+    height: 100px;
+
+    margin-top: 20px;
+}
+body {
+
+    margin-top: 100px;
+    border: 1px solid blue;
+    height: 1055px;
+}
+
+
+ .sideNav {
+
+    
+    float: left;
+    box-shadow: 5px 0 2px #969090;
+    width: 335px;
+    height: 1055px;
+   
+
+}
+.breadcrumbNav {
+
+    
+    margin: 12% 10px;
+    padding: 20px 30px;
+    
+   
+   
+    
+    
+}
+#breadcrumbpadding {
+
+    
+    padding: 10px 0;
+}
+
+ a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.001em;
+    text-transform: capitalize;
+
+    color: #005596;
+    text-decoration: none;
+ }
+
+ nav,ul {
+
+    list-style:none ;
+ }
+.breadcrumb-item.active {
+   
+    
+    border-bottom: 3px solid #005596;
+    width: 115px;
+    padding-left: 0;
+    
+}
+
+#hover:hover {
+    font-weight: bold;
+   
+   
+}
+
+.contentContainerRight {
+    
+    width:1200px;
+    height: 1055px;
+    margin-left: 17.9%;
+    border: 1px solid green;
+   padding-left: 50px;
+
+
+}
+form {
+    
+    width: 1300px;
+    margin: 5% 5%;
+    height: 830px;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    border: 1px solid #969090;
+    box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+
+}
+
+.contentForm {
+        
+    
+        margin-top: 7%;
+}
+.toptitle {
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    background: #ECE7E7;
+    width: 1110px;
+    height: 40px;
+    margin:2.5% 6%;
+    padding-left: 50px;
+}
+.navtab {
+
+   
+    width: 300px;
+    margin: auto auto;
+    
+}
+#nav-done-tab {
+
+margin:auto ;
+}
+
+
+.printReportBtn {
+
+    border-radius: 10px;
+    width: 100px;
+    margin:0 15%;
+    background: #005596;
+    color:white;
+}
+.Cards {
+
+
+    overflow-y:scroll;
+    height:600px;
+    width: 1180px;
+   
+}
+/*Text color on Tabs*/
+.colorRed {
+
+    color: red;
+    font-weight: bold;
+}
+
+.colorAmber {
+
+    color: #FF8800;
+    font-weight: bold;
+}
+
+/*End Text color on Tabs*/
+.card {
+    margin:1% 25% ;
+    
+    width: 60%;
+    height: auto;
+    border: 4px solid #969090; ;
+}
+
+.card-body {
+
+        margin: -10px -5px;
+        
+   
+}
+
+.card-titles {
+    display: flex;
+    
+  
+}
+#date {
+
+    padding-left: 50.5%;
+}
+.imgStaffInfo {
+
+    border: 1px solid red;
+    display:flex;
+    flex-direction: row;
+    padding: 0 25%;
+    height: 130px;
+    
+}
+.card-text {
+    border: 1px solid red;
+    padding: 12% 2%;
+    margin-left: 1%;
+
+}
+.btn1 {
+    margin: 0% 50%;
+    position: absolute;
+    bottom: 10%;
+
+    width: 140px;
+    height: 40px;
+
+    text-align: center;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+
+.assignButton {
+
+    font-size: small;
+    border-radius: 10px;
+    padding: 3px;
+    
+}
+
+@media print {
+    body{
+        visibility: hidden;
+    }
+
+    .navtab{
+
+        visibility: visible;
+        position: absolute; 
+        top: 10%;
+        left: 20%;
+    }
+    .contentToPrint {
+
+        visibility: visible;
+        position: absolute;
+        top: 14%;
+        left: -10%;
+        
+    }
+    .printReportBtn{
+        visibility: hidden;
+    }
+    .card {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .sticky {
+        width: 100%;
+    }
+    body {
+        background-color: yellow;
+    }
+    .sideNav {
+        width: 300px;
+
+    }
+    .contentContainerRight {
+        width: 900px;
+        margin-top: 0%;
+        
+    
+    
+    }
+    form { 
+
+        width: 900px;
+    }
+    .backFrom{
+        width: 870px;
+        
+    
+    }
+    .toptitle {
+        width: 750px;
+        margin:5% 5%;
+        
+    }
+
+    /*
+        #date {
+
+        padding-left: 60.5%;
+    }
+    
+    */
+    
+    .Cards {
+        border:1px solid red;
+        width: 850px;
+        
+    }
+    .card {
+        margin:1% 10% ;
+        width: 700px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color:lightgray;
+        width: 100%;
+    }
+    .logo {
+        height: 90px;
+       margin-top: -2%;
+    }
+    .sticky {
+        width: 100%;
+    }
+    .sideNav {
+        width: 200px;
+
+    }
+    .breadcrumbNav {
+
+    
+        margin: 12% -5%;
+        padding: 20px 30px;
+        
+       
+       
+        
+        
+    }
+    .contentContainerRight {
+        width: 800px;
+        margin-top: 0%;
+        margin-left: 10.9%;
+    
+    
+    }
+    form { 
+
+        width: 600px;
+    }
+    .backFrom{
+        width: 750px;
+        
+    
+    }
+    .toptitle {
+        width: 660px;
+        margin:5% 8%;
+        font-size: 20px;
+        
+        padding-left: 40px;
+        
+    }
+    .Cards {
+        border:1px solid red;
+        background-color: #cf5252;
+        width: 800px;
+        
+        
+    }
+    .card {
+        margin:0% 5% ;
+        width: 700px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        background-color: rgb(235, 143, 89);
+        width: 100%;
+    }
+    .sticky{
+        border: 1px solid red;
+    }
+    .logo {
+       height: 80px;
+    }
+    .sideNav {
+        display: none;
+
+    }
+    .toggleMenu {
+
+        display:block;
+        width: 10%;
+        
+        
+        
+        
+    }
+    .contentContainerRight {
+        width: 500px;
+        margin-top: 0%;
+        margin-left: -15%;
+    
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    body{
+        background-color: rgb(131, 247, 116);
+        width: 100%;
+    }
+    .sideNav {
+        display: none;
+
+    }
+    .contentContainerRight {
+        width: 600px;
+        margin-top: 0%;
+        margin-left: -20%;
+    
+    
+    }
+    .backFrom{
+        width: 570px;
+        
+    
+    }
+    
+    .toptitle {
+        width: 500px;
+        margin:5% 10%;
+        font-size: 18px;
+        
+        padding-left: 40px;
+        
+    }
+    .Cards {
+        border:1px solid red;
+        background-color: #cf5252;
+        width: 250px;
+        
+        
+    }
+    .card {
+        margin:0% 5% ;
+        width: 550px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+        
+
+<nav class="navbar navbar-expand-lg ">
+    <!--Start of navigation section-->
+
+      <div class="container-fluid sticky fixed-top " >
+  
+            <!--Start of logo -->
+            <h1 class="navbar-brand" routerLink=""><img src="/assets/images/tutLogo.png"> </h1> <P class = "center">ADMIN VIEW REQUEST</P>
+    
+            <!--End of logo-->
+      </div>
+  
+      <!--End of navigation section-->
+</nav>
+
+
+
+<body>
+    <div class = "sideNav"> 
+        
+        <nav class="breadcrumbNav">
+            <ul >
+                
+                <li class = "breadcrumb-item active" id = "breadcrumbpadding"><a href="#">View Request</a></li>
+
+                
+            </ul>
+            
+        </nav>
+        
+    </div>
+    <div class = "contentContainerRight">
+            <form class="backFrom">
+                <div class = "contentForm">
+
+                    <h3 class = "toptitle">Admin Assign Task</h3>
+                    <div class = "myTable">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Venue</th>
+                                <th scope="col">Image</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="rowPadding">King Malatji</td>
+                                <td class="rowPadding">HardWare</td>
+                                <td class="rowPadding">Monitor is broken</td>
+                                <td class="rowPadding">10-G42</td>
+                                <td class="rowPaddingImage"><img class="requestimgSize" src = "/assets/images/backArrow.png"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <button>Assign Task</button>
+                    
+
+                </div>
+            </form>
+    </div>
+    
+</body>
+
+
+
+
+
+
+
+
+*/

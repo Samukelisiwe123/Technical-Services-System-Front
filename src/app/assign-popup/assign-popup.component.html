@@ -1,0 +1,67 @@
+<body class="w-543px h-383px rounded-1 p-4 border bg-white">
+
+    <button id="b12" type="button" class="btn-close float-right" (click)="close()" aria-label="Close"></button>
+
+    
+
+       <div class = "contentForm" >
+       
+        <div class="departmenCategoryText">
+            <h2>Campus: Soshanguve</h2>
+            <h4></h4>
+            <h5></h5>
+        </div>
+        
+        <div >
+
+    
+            <h1 class="d-flex justify-content-center" style="background-color: rgb(182, 179, 179);">View Available Technician</h1>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Artisan Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Tel Number</th>
+                        <th scope="col">Priority</th>
+                        <th scope="col">Assign Artisan</th>
+
+
+                    </tr>
+                </thead>
+
+                <tbody *ngFor="let availabletech of availableTechData">
+                    <tr>
+                        <td scope="row">{{availabletech.name}} {{availabletech.surname}} </td>
+                        <td scope="row">{{availabletech.email}}</td>
+                        
+                        <td>{{availabletech.phone}} </td>
+                        <td>
+                            <select id="Cater" (change)="setDay($event)">
+                                <option value="">Day</option>
+                                <option *ngFor="let day of days" value="{{day}}">{{day}}</option>
+                            </select>
+                            <select id="Cater" (change)="setMonth($event)">
+                                <option value="">Month</option>
+                                <option *ngFor="let month of months" value="{{month}}">{{month}}</option>
+                            </select>
+                            <select id="Cater" (change)="setYear($event)">
+                                <option value="">Year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+
+                            </select>
+                        </td>
+                        <td><button type="button" class="btn btn-primary"
+                                (click)="assignArtisan(availabletech.tech_id)">Assign</button></td>
+                        <td>
+
+                </tbody>
+            </table>
+            
+        </div>
+
+
+       
+    </div>
+
+</body>

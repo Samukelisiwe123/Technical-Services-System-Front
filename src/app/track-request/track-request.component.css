@@ -1,0 +1,556 @@
+/* .tab-content {
+  float: right;
+  width: 80%;
+  margin-right: 0%;
+} */
+/* .nav-tabs {
+background: rgba(155, 154, 154, 0.8);
+border-right: 5px solid #0e0f52;
+}
+
+
+ */
+
+/* .reqhead1{
+  
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ECE7E7; 
+    font-weight: bold;
+
+
+
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0.15em;
+
+color: #000000;
+} */
+
+/* .reqhead2{
+  
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #ECE7E7; 
+  font-weight: bold;
+
+
+
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0.15em;
+
+color: #000000;
+} */
+
+
+
+/*Footer*/
+
+footer{
+  background: black;
+    padding: 8px;
+    color: #eee;
+   text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.reqhead1{
+  
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ECE7E7; 
+    font-weight: bold;
+
+
+
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0.15em;
+
+color: #000000;
+}
+
+.reqhead2{
+  
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #ECE7E7; 
+  font-weight: bold;
+
+
+
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0.15em;
+
+color: #000000;
+}
+
+/*Navigation*/
+
+.header {
+  height: 81px;
+  background: #0c0c0c;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding:0 16px 0 0;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+/* .header a {
+  padding: 0 32px;
+  color: #eee;
+  transition: 0.4s;
+} */
+
+
+
+/* select#Cater,
+input.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 1rem;
+} */
+
+
+
+#b12{
+  float: right;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+  }
+
+
+
+.sideNav {
+float: left;
+box-shadow: 5px 0 2px #575656;
+width: 300px;
+height: 1132px;
+
+
+}
+
+.breadcrumbNav {
+margin: 12% 10px;
+padding: 20px 30px; 
+top:0%;  
+transform: translateY(-1%);     
+}
+#breadcrumbpadding {
+
+width: 115px;  
+padding: 6px 0;
+}
+
+a {
+font-size: 16px;
+line-height: 20px;
+color: #2e2e2e;
+text-decoration: none;
+}
+
+.breadcrumbNav ul {
+
+list-style:none ;
+flex-direction: column;
+}
+.breadcrumb-item.active {
+
+
+border-bottom: 3px solid #4b4c4d;
+width: 115px;  
+
+}
+
+.anchorBorder{
+
+  
+margin:0 0%;
+}
+
+#hover:hover {
+font-weight: 700px;
+color: rgb(6, 85, 42);
+font-size: large;
+
+
+
+margin-bottom: 24px;
+margin-left: 10px;
+
+cursor: pointer;
+
+
+
+
+}
+
+
+
+
+
+    
+.contentContainerRight {
+   
+height: 1055px; 
+padding-left: 10px;
+}
+form {
+    
+    width: 600px;
+    
+    height: 600px;
+
+    /*Note that the background form is not visible behind, nut it is there*/
+}
+
+
+.toptitle {
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    background: #ECE7E7;
+    width: 1110px;
+    margin:5% 6%;
+    padding-left: 50px;
+}
+h4 {
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.container {
+    
+    margin: 2% auto;
+    width: 1050px;
+    text-align: center;
+   
+}
+.middleTable {
+
+    border: 1px solid black ;
+}
+.middleTableDiv {
+    
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 2px 6px black;
+    border-radius: 10px;
+    overflow-y: scroll;
+    width: 850px;
+    height: 500px;
+    margin: auto 17.5%;
+}
+.middleTableDivTextMargin {
+    margin: 1%;
+}
+
+.container .progress {
+    margin: 0 auto;
+    width: 800px;
+}
+.progress {
+    padding: 4px;
+    background:white;
+    border:1px solid gray;
+}
+
+label {
+    display: inline-block;
+    margin: 0 60px 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-weight:500;
+   
+
+}
+
+.todo{
+    background-color: red;
+    
+}
+.Assigned{
+
+    background-color: #005596;
+}
+.InProgress{
+
+    background-color: orange;
+}
+.OnHold{
+
+    background-color: lightgrey;
+}
+.Done{
+
+    background-color: green;
+}
+
+
+.todo:hover{
+    color: red;
+    background-color: white;
+
+}
+.Assigned:hover{
+    color: #005596;
+    background-color: white;
+
+}
+.InProgress:hover{
+    color: orange;
+    background-color: white;
+
+}
+.OnHold:hover{
+    color: lightgrey;
+    background-color: white;
+
+}
+.Done:hover{
+    color: green;
+    background-color: white;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .sticky {
+        width: 100%;
+    }
+    body {
+        background-color: yellow;
+    }
+    
+    .contentContainerRight {
+       
+        margin-top:0%;
+        margin-left: 10%;
+        
+    
+    
+    }
+    form { 
+
+        width: 900px;
+    }
+    .toptitle {
+        border:1px solid red;
+        width: 700px;
+        margin:5% 17%;
+        
+        
+    }
+    label {
+        display: inline-block;
+        margin: 0 30px 0px;
+        padding: 5px 15px;
+       
+    
+    }
+
+    .middleTableDiv {
+
+        width:720px;
+        
+
+    }
+   
+
+}
+@media only screen and (max-width: 992px) {
+    body {
+        background-color:lightgray;
+        width: 100%;
+    }
+    .logo {
+        height: 90px;
+        margin-top: 4px;
+    }
+    .sticky {
+        width: 100%;
+    }
+    
+    .contentContainerRight {
+        
+        margin-top: 0%;
+        margin-left: 12%;
+    
+    
+    }
+    form { 
+
+        width: 600px;
+    }
+    .toptitle {
+        width: 660px;
+        margin:5% 8%;
+        font-size: 20px;
+        
+        padding-left: 40px;
+        
+    }
+    h4 {
+        padding-left: 60px;
+        font-weight: 400;
+        
+    }
+    
+    .container {
+        margin: 20px auto;
+        width: 700px;
+        text-align: center;
+       
+    }
+    label {
+        display: inline-block;
+        margin: 0 25px ;
+        padding: 1px 10px;
+       
+    
+    }
+    .middleTableDiv {
+
+        width:600px;
+        margin: auto 9%;
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        body{
+            background-color: rgb(235, 143, 89);
+            width: 100%;
+        }
+        .sticky{
+            width: 100%;
+            border: 1px solid red;
+        }
+        .logo {
+           height: 80px;
+        }
+        
+        .toggleMenu {
+
+            display:block;
+            width: 10%;
+            
+            
+            
+            
+        }
+        .contentContainerRight {
+          
+            margin-top: 0%;
+            margin-left: -12%;
+        
+        
+        }
+        h4 {
+            padding-left: 80px;
+            font-weight: 400;
+            
+        }
+        .container {
+
+            margin: 20px 15%;
+            width: 1000px;
+            text-align: center;
+           
+        }
+        label {
+            display: inline-block;
+            margin: 0 10px ;
+            padding: 1px 10px;
+            font-weight:500;
+           
+        
+        }
+        .middleTableDiv {
+
+            width:500px;
+            margin: auto 18%;
+    
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        body{
+            background-color: rgb(131, 247, 116);
+            width: 100%;
+        }
+        
+        .contentContainerRight {
+           
+            margin-top: 0%;
+            margin-left: -28%;
+        
+        
+        }
+        .toptitle {
+            width: 520px;
+            margin:5% 13%;
+            font-size: 18px;
+            
+            padding-left: 40px;
+            
+        }
+        .container {
+            margin: 20px 15%;
+            width: 500px;
+            text-align: center;
+           
+        }
+        .middleTableDiv {
+
+            width:500px;
+            margin: auto 15%;
+    
+        }
+
+
+    }
+
+}
