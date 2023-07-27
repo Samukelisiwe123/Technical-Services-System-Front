@@ -1,0 +1,115 @@
+
+
+
+
+
+<body>
+    <div class = "contentContainerRight">
+            <form class="backFrom">
+                <div class = "contentForm">
+
+                    <h3 class = "toptitle">Admin View Progress</h3>
+
+                        
+                        <nav class="navtab">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                              <button class="nav-link active colorAmber" id="nav-in-progress-tab" data-bs-toggle="tab" data-bs-target="#nav-in-progress" type="button" role="tab" aria-controls="nav-in-progress" aria-selected="true">In-progress</button>
+                              <button class="nav-link colorRed" id="nav-done-tab" data-bs-toggle="tab" data-bs-target="#nav-done" type="button" role="tab" aria-controls="nav-done" aria-selected="false">Done</button>
+
+                            </div>
+                          </nav>
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-in-progress" role="tabpanel" aria-labelledby="nav-in-progress-tab">
+                              <button class="printReportBtn" (click)="printer()" target="_blank">Print Report</button>
+                                <div class="card  contentToPrint">
+                                    
+                                    <table class="table table-hover" >
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Staff Name</th>
+                                            <th scope="col">Category</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Venue</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">Kamo Hlasa</th>
+                                            <td>Electrical</td>
+                                            <td>Flickering lights</td>
+                                            <td>10-G06</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">dipono minose</th>
+                                            <td>Plumbing</td>
+                                            <td>Water is leaking</td>
+                                            <td>10-G06</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">Kabelo malatji</th>
+                                            <td >Door is broken</td>
+                                            <td>Wood technician</td>
+                                            <td>10-G06</td>
+                                          </tr>
+                                         
+                                        </tbody>
+                                      </table>
+                                </div>
+
+
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="nav-done" role="tabpanel" aria-labelledby="nav-done-tab">
+                                <button class="printReportBtn" (click)="printer()" target="_blank">Print Report</button>
+                                <div class="card contentToPrint ">
+                                    <table class="table table-hover" >
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Artisan Name</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Tel Number</th>
+                                            <th scope="col">Assign Artisan</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">Kamo Hlasa</th>
+                                            <td>hlasaK@mail.ac.za</td>
+                                            <td>0810539853</td>
+                                            <td><button class="assignButton" >Assign</button></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">dipono minose</th>
+                                            <td>hlasaK@mail.ac.za</td>
+                                            <td>0810539853</td>
+                                            <td><button class="assignButton" >Assign</button></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">dipono minos</th>
+                                            <td >hlasaK@mail.ac.za</td>
+                                            <td>0810539853</td>
+                                            <td><button class="assignButton" >Assign</button></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row"></th>
+                                            <td ></td>
+                                            <td>0810539853</td>
+                                            <td><button class="assignButton" >Assign</button></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+
+
+
+                            </div>
+                           
+                        </div>
+         
+                </div>
+            </form>
+        </div>
+</body>
+
